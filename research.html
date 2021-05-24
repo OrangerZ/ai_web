@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Research-Wayne AI Research</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Wayne State AI Research and Education Core Group" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 0);
+        }
+    </script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="images/wsu-ico.png" />
+    <!-- bootstrap-css -->
+    <!-- <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /> -->
+    <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <!-- <link href="css/bootstrap-grid.css" rel='stylesheet' type='text/css' /> -->
+    <!-- //bootstrap-css -->
+    <!-- css -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="css/font-awesome.min.css" rel='stylesheet' type='text/css' />
+    <!-- //css -->
+    <!-- fonts -->
+    <link href='http://fonts.useso.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <!-- //fonts -->
+    <!-- js -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <!-- <script src="js/bootstrap.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!-- //js -->
+    <!-- start-smoth-scrolling-->
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!--//end-smoth-scrolling-->
+</head>
+
+<body>
+    <div class="top-nav">
+        <nav class="navbar navbar-default">
+            <div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+                    <div class="logo">
+                        <a href="index.html"><img src="images/AI.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-center">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="research.html" class="active">RESEARCH</a></li>
+                        <li><a href="education.html">EDUCATION</a></li>
+                        <li><a href="outreach.html">OUTREACH</a></li>
+                        <!-- <li><a href="https://bulletins.wayne.edu/graduate/college-engineering/computer-science/computer-science-ms/#requirementstext">EDUCATION</a></li> -->
+                        <!-- <li><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EDUCATION<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="hvr-bounce-to-bottom" href="education.html">Education1</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown-submenu" role="button" aria-haspopup="true" aria-expanded="false">Education2<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="education.html">Education4</a></li>
+                                        <li><a href="education.html">Education5</a></li>
+                                        <li><a href="education.html">Education6</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="hvr-bounce-to-bottom" href="education.html">Education3</a></li>
+                            </ul>
+                        </li> -->
+                        <!-- <li><a href="events.html">EVENTS</a></li> -->
+                    </ul>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- script-for sticky-nav -->
+    <script>
+        $(document).ready(function() {
+            var navoffeset = $(".top-nav").offset().top;
+            $(window).scroll(function() {
+                var scrollpos = $(window).scrollTop();
+                if (scrollpos > navoffeset) {
+                    $(".top-nav").addClass("fixed");
+                } else {
+                    $(".top-nav").removeClass("fixed");
+                }
+            });
+
+        });
+    </script>
+    <!-- /script-for sticky-nav -->
+    <!--navigation-->
+
+    <div class="about-info">
+        <h2>Research</h2>
+    </div>
+    <!--start-work-->
+
+    <!-- services -->
+    <div id="services" class="services" style="background-color:#fff">
+        <div class="container">
+            <div class="services-grids">
+                <div class="col-md-4 services-grid">
+                    <div class="services-icon">
+                        <span class="glyphicon glyphicon-asterisk glyphicon-eye-open" aria-hidden="true"></span>
+                    </div>
+                    <h4>Computer Vision</h4>
+                </div>
+                <div class="col-md-4 services-grid">
+                    <div class="services-icon">
+                        <span class="glyphicon glyphicon-asterisk glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
+                    </div>
+                    <h4>Natural Language Processing</h4>
+                </div>
+                <div class="col-md-4 services-grid">
+                    <div class="services-icon">
+                        <span class="glyphicon glyphicon-asterisk glyphicon-lock" aria-hidden="true"></span>
+                    </div>
+                    <h4>Cybersecurity</h4>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="services-grids">
+                <div class="col-md-4 services-grid">
+                    <div class="services-icon">
+                        <span class="glyphicon glyphicon-asterisk glyphicon-road" aria-hidden="true"></span>
+                    </div>
+                    <h4>Transportation</h4>
+                </div>
+                <div class="col-md-4 services-grid">
+                    <div class="services-icon">
+                        <span class="glyphicon glyphicon-asterisk glyphicon-plus" aria-hidden="true"></span>
+                    </div>
+                    <h4>Healthcare</h4>
+                </div>
+                <div class="col-md-4 services-grid">
+                    <div class="services-icon">
+                        <span class="glyphicon glyphicon-asterisk glyphicon-cog" aria-hidden="true"></span>
+                    </div>
+                    <h4>Intelligent Reality</h4>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!-- //container -->
+    </div>
+    <!-- services -->
+    <div class="details">
+        <div class="details-info container">
+            <div class="details-right col-lg-8 col-sm-6">
+                <h3 class="media-heading">AI for Mobility</h3>
+                <br>
+                <div class="details-text">
+                    <p>
+                        <b>Project title: </b> SCC-CIVIC-PG Track A: Leveraging AI-assist Microtransit to Ameliorate Spatiotemporal Mismatch between Housing and Employment
+                    </p>
+                    <p>
+                        <b>Investigators: </b>Dongxiao Zhu, Marco Brocanelli, Daniel Grosu, and Tierra Bills
+                    </p>
+                    <p>
+                        <b>Abstract: </b>COVID-19 disproportionately affects the low-wage workers whose spatiotemporal mobility pattens, e.g., between housing and job, have dramatically changed. Microtransit service has been recently launched in Detroit
+                        to complement the existing public transit options. Despite the initial success, a salient issue is how to effectively and efficiently utilize microtransit resources to ameliorate spatiotemporal mismatch between employment and housing
+                        for low-wage workers. With the rise of Artificial Intelligence (AI) and increasingly available smart mobility data, the vision of this research project is to create a dynamic routing prediction system based on learning the hourly
+                        mobility patterns between jobs and housing. It is designed for the stakeholders (i.e., community advocates and public transport authority) to visualize and forecast the mismatch between employment and housing, which is translated
+                        into a dynamic trip demand that can be used to design adaptive routing algorithms to optimize the allocation of microtransit resources and to enhance micromobility via minimizing the rider?s first/last mile.
+                    </p>
+                    <p>
+                        Currently public transportation with fixed routes and schedules are periodically tweaked and/or augmented to ameliorate the ever-changing spatial mismatch. Despite its long-term effectiveness, it is not sufficiently flexible to adapt to the hourly spatiotemporal
+                        variation of jobs-housing mobility patterns primarily from the hourly paid workers. The long-term goal of this project is to work with civic partners in the city of Detroit to (1) design, implement and deploy an AI-assist microtransit
+                        system to ameliorate the spatiotemporal mismatch between housing and employment, particularly for the low-wage workers residing in the under resourced neighborhoods; and (2) use geocoded socioeconomic data to identify the community
+                        with disparities in mobility and deploy smart mobility technology to reduce the disparities and foster thriving communities. The project?s near-term objective is to leverage and power the existing microtransit service with cutting-edge
+                        technology and select a few spatiotemporally mismatched regions in Detroit as the testbed for our smart mobility strategy.
+                    </p>
+                    <p>
+                        The research innovation is expected to provide immediate, low-cost yet effective public transit solutions that are expected to bring an immediate benefit to the vulnerable communities in Detroit by significantly reducing transit risk, commute time/distance
+                        and trip cost. It can be replicated to other US cities to ameliorate the spatiotemporal mismatch between housing and employment. In addition, it can provide insight for designing long-term intervention strategies to eliminate the
+                        mismatch and reduce the mobility disparities, for example, government to launch new transportation options and create jobs; and builders to develop housing in the mismatched regions.
+                    </p>
+                </div>
+
+            </div>
+            <div class="details-left col-lg-4 col-sm-6">
+                <img class="media-object" src="images/33.jpg" alt="...">
+                <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2043611&HistoricalAwards=false" class="read" target="_blank">Learn More</a>
+            </div>
+        </div>
+        <div style="background-color:#fff;">
+            <div class="details-info container">
+                <div class="details-left col-lg-4 col-sm-6">
+                    <img class="media-object" src="images/32.png" alt="...">
+                    <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2027251&HistoricalAwards=false" class="read" target="_blank">Learn More</a>
+                </div>
+                <div class="details-right col-lg-8 col-sm-6">
+                    <h3 class="media-heading">AI for Healthcare</h3>
+                    <br>
+                    <div class="details-text">
+                        <p>
+                            <b>Project title: </b>RAPID: CORPUS: An Edge Intelligence-Assisted Multi-Granularity COVID-19 Risk Predication and Update System
+                        </p>
+                        <p>
+                            <b>Investigators: </b>Weisong Shi, Ming Dong
+                        </p>
+                        <p>
+                            <b>Abstract: </b>Since the first COVID-19 case was diagnosed and reported at the end of December 2019, there have been more than 1.6 million COVID-19 cases reported, causing more than 100,000 death worldwide as of April 10,
+                            2020. The outbreak of COVID-19 has significantly affected individuals and our society as a whole, and many national and international events have been canceled over COVID-19 fears, including NBA, NCAA events, Mobile World Congress.
+                            For the sake of either individual, institutes, or governments, a risk prediction and update system are urgently needed. However, to design and implement such a system, there are several system challenges. First, how to derive
+                            the infection risk level from different granularities, i.e., individual-, event-, and institution-levels? Second, how to dynamically update the risk level based on the latest outbreak news? Third, how to preserve user sensitive
+                            data while sharing adequate data for risk level calculation? To attack these challenges in this RAPID project, researchers at Wayne State University and Henry Ford Health Systems design and implement CORPUS, an edge intelligence-assisted,
+                            multi-granularity COVID-19 Risk Prediction, and Update System, which includes a mobile app running on personal phones, as well as a large-scale distributed protocol behind the app collecting and updating the information. First,
+                            CORPUS will build a multi-granularity risk analysis model, from fine-grained personal risk to small clustered meeting risk, to coarse-grained large clustered event risk, and institutional/organization risk. Second, CORPUS employs
+                            a data propagation protocol to build and update the risk analysis model. The data that can contribute to CORPUS include spatial data (such as GPS signal), temporal data (such as calendar event), as well as the input from the
+                            user (such as meeting with a specific person). Third, CORPUS leverages privacy-preserving algorithms such as node-level feature pooling and anonymous parameter of the model instead of raw user data, to ensure the confidentiality
+                            of personal information when multi-granularity models request personal risk information.
+                        </p>
+                        <p>
+                            With the rapid expansion of COVID-19, there is an urgent need for the individual to know their infection risk when traveling to a place in the foreseeable future. CORPUS can meet their needs by leveraging personalized information and edge intelligence.
+                            For a group or an organization, CORPUS will provide risk-related information to help them to judge the feasibility of holding a meeting or an event during an outbreak, especially for large-scale international events (such as
+                            the Olympics and World Cup). They can also proactively take action based on the risk information provided by CORPUS to reduce the spread of COVID-19. CORPUS will help governments perceive the risk of infection in their jurisdictions,
+                            and thus guide infection prevention and control for effective governance.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="details-info container">
+            <div class="details-right col-lg-8 col-sm-6">
+                <h3 class="media-heading">AI for Biomedical Informatics</h3>
+                <br>
+                <div class="details-text">
+                    <p>
+                        <b>Project title: </b>Severity Predictors Integrating salivary Transcriptomics and proteomics with Multi neural network Intelligence in SARS-CoV2 infection in Children (SPITS MISC)
+                    </p>
+                    <p>
+                        <b>Investigators: </b>Dongxiao Zhu
+                    </p>
+                    <p>
+                        <b>Abstract: </b>Children have been disproportionately less impacted by the Corona Virus Disease 2019 (COVID-19) caused by the Severe Acute Respiratory Syndrome Corona Virus 2 (SAR-CoV-2) compared to adults. However, severe illnesses
+                        including Multisystem Inflammatory Syndrome (MIS-C) and respiratory failure have occurred in a small proportion of children with SARS-CoV-2 infection. Nearly 80% of children with MIS-C are critically ill with a 2-4% mortality rate.
+                        Currently there are no modalities to characterize the spectrum of disease severity and predict which child with SARS-CoV-2 exposure will likely develop severe illness including MIS-C. Thus there is an urgent need to develop a diagnostic
+                        modality to distinguish the varying phenotypes of disease and risk stratify disease. The epigenetic changes in microRNA (miRNA) profiles that occur due to an infection can impact disease severity by altering immune response and
+                        cytokine regulation which may be detected in body fluids including saliva. Our long-term goal is to improve outcomes of children with SARS-CoV-2 by early identification and treatment of those at risk for severe illness. Our central
+                        hypothesis is that a model that integrates salivary biomarkers with social and clinical determinants of health will predict disease severity in children with SARS-CoV-2 infection. The central hypothesis will be pursued through
+                        phased four specific aims. The first two aims will be pursued during the R61 phase and include: 1) Define and compare the salivary molecular host response in children with varying phenotypes (severe and non severe) SARS-CoV-2 infections
+                        and 2) Develop and validate a sensitive and specific model to predict severe SARS-CoV-2 illness in children. During the R33 phase we will pursue the following two aims: 3) Develop a portable, rapid device that quantifies salivary
+                        miRNAs with comparable accuracy to predicate technology (qRT-PCR), and 4) Develop an artificial intelligence (AI) assisted cloud and mobile system for early recognition of severe SARS-CoV-2 infection in children. We will pursue
+                        the above aims using an innovative combination of salivaomics and bioinformatics, analytic techniques of AI and clinical informatics. The proposed research is significant because development of a sensitive model to risk stratify
+                        disease is expected to improve outcomes of children with severe SARS-CoV-2 infection via early recognition and timely intervention. The proximate expected outcome of this proposal is better understanding of the epigenetic regulation
+                        of host immune response to the viral infection which we expect to lead to personalized therapy in the future. The results will have a positive impact immediately as it will lead to the creation of patient profiles based on individual
+                        risk factors which can enable early identification of severe disease and appropriate resource allocation during the pandemic.
+                    </p>
+                </div>
+
+            </div>
+            <div class="details-left col-lg-4 col-sm-6">
+                <img class="media-object" src="images/34.jpg" alt="...">
+                <a href="https://projectreporter.nih.gov/project_info_details.cfm?aid=10273618&icde=53205904" class="read" target="_blank">Learn More</a>
+            </div>
+        </div>
+
+
+        <div style="background-color:#fff;">
+            <div class="details-info container">
+                <div class="details-left col-lg-4 col-sm-6">
+                    <img class="media-object" src="images/35.png" alt="...">
+                    <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1948338&HistoricalAwards=false" class="read" target="_blank">Learn More</a>
+                </div>
+                <div class="details-right col-lg-8 col-sm-6">
+                    <h3 class="media-heading">AI for Biomedical Informatics</h3>
+                    <br>
+                    <div class="details-text">
+                        <p>
+                            <b>Project title: </b>CRII: III: Learning to Integrate Heterogeneous Data from Disparate Sources for Disease Subtyping
+                        </p>
+                        <p>
+                            <b>Investigators: </b>Suzan Arslanturk
+                        </p>
+                        <p>
+                            <b>Abstract: </b>Patients suffering from the same cancer disease often not only experience a high degree of symptomatic variability but also respond significantly different to the same treatment. As a result, many cancers are
+                            over-diagnosed causing patients to receive unnecessary and costly cancer treatments, while some patients do not receive the needed treatment. These can be greatly reduced with targeted treatments that result in greater efficacy
+                            and fewer debilitating or dose limiting side effects. Hence, the discovery of patient subgroups and/or disease subtypes that differ in cancer progression will help better tailor treatments with reduced lethality and improve
+                            the quality of life by avoiding over-treatment. Studies have shown that, in addition to the genetic factors, such factors as clinical history, hormonal exposure, lifestyle, and epidemiologic factors may play an important role
+                            in the onset and progression of cancers. Hence, investigation of clinically relevant disease subtypes cannot be achieved by solely analyzing data from a single source, i.e. only the genetic composition. This project will build
+                            innovative machine learning technologies to integrate knowledge collected from multiple repositories from different cohorts of multiple data types (e.g. genomic, clinical, and epidemiologic) for a more accurate and robust discovery
+                            of disease subgroups and/or patient subtypes. Its activities will thus advance the field of multi-type data integration from disparate sources with different cohorts. Anticipated results will greatly benefit the society by
+                            reducing the health care costs and improving patient care by distinguishing between patients who are at higher-risk and need the most aggressive treatments from those who will never progress, recur, or develop resistance to
+                            treatments. The interdisciplinary nature of the project will further the education of undergraduate and graduate students through cross-disciplinary training by bridging the fields of computer science, biology, and engineering.
+                        </p>
+                        <p>
+                            To meet these goals, the project will investigate a novel clinically-relevant disease subtyping system by flexibly integrating collective information available through multiple studies with different cohorts and heterogeneous data types using innovative
+                            deep learning models and algorithms. Here, the investigator hypothesizes that if the information in partially coupled data from disparate sources is integrated in a meaningful way that is statistically sound and robust, then
+                            the analysis on the integrated data would lead to a more unified picture and global view of the system, and thus, to a more accurate and robust discovery of disease subtypes. Existing data fusion approaches suffer from such
+                            challenges as uniqueness, interpretability, high-dimensionality of the feature space and linearity assumptions. This project will develop theory, algorithms, and implementation of a deep machine learning technique capable of
+                            discovering the salient knowledge of the learning task during the integration of disparate datasets. Therefore, it is expected to overcome such challenges as high dimensionality of genomic datasets. The project would result
+                            in a valuable tool with broad implications and utility in cancer research. These findings will not only provide useful and valuable models to identify patient subgroups and/or disease subtypes, but will also result in a valuable
+                            precision medicine resource for the wider scientific community on other diseases.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="details-info container">
+            <div class="details-right col-lg-8 col-sm-6">
+                <h3 class="media-heading">AI for Public Safety</h3>
+                <br>
+                <div class="details-text">
+                    <p>
+                        <b>Project title: </b>DeepWave, an AI acoustic analysis technology that can deliver sound element separation and audio enhancement in real time
+                    </p>
+                    <p>
+                        <b>Investigators: </b>Ming Dong
+                    </p>
+                </div>
+            </div>
+            <div class="details-left col-lg-4 col-sm-6">
+                <img class="media-object" src="images/36.jpg" alt="...">
+                <a href="https://research.wayne.edu/news/mtrac-innovation-hub-for-advanced-computing-awards-270000-to-wayne-state-university-artificial-intelligence-ai-projects-40904" class="read" target="_blank">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- funding opportunities -->
+    <div class="about-bottom">
+        <div class="container">
+            <h3>AI-related funding opportunities</h3>
+            <div class="about-bottom-grids">
+                <div class="col-md-6 about-bottom-left">
+                    <h4>National Science Foundation </h4>
+                    <div class="funding-list funding-text">
+                        <ul>
+                            <li><a href="https://www.nsf.gov/cise/ai.jsp">AI program overview</a></li>
+                            <li><a href="https://www.nsf.gov/pubs/2021/nsf21535/nsf21535.htm">Smart and Connected Community (SCC)</a></li>
+                            <li><a href="https://www.nsf.gov/pubs/2021/nsf21530/nsf21530.htm">Smart and Connected Health (SCH)</a></li>
+                            <li><a href="https://www.nsf.gov/pubs/2021/nsf21500/nsf21500.htm">Secure and Trustworthy Cyberspace (SaTC)</a></li>
+                            <li><a href="https://www.nsf.gov/eng/futureofwork.jsp">Future of Work at the Human-Technology Frontier (FW-HTF)</a></li>
+                            <li><a href="https://www.nsf.gov/cise/harnessingdata/">Harnessing the Data Revolution (HDR)</a></li>
+                            <li><a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=127138">New Dear Colleague Letters</a></li>
+                            <li><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505873">Mathematical and Scientific Foundations of Deep Learning (SCALE MoDL)</a></li>
+                            <li><a href="https://www.nsf.gov/pubs/2021/nsf21572/nsf21572.htm">NSF Convergence Accelerator Phases I and II for the 2021 Cohort</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 about-bottom-left about-bottom-right">
+                    <h4>National Institute of Health</h4>
+                    <div class="funding-list funding-text">
+                        <ul>
+                            <li><a href="https://allofus.nih.gov/">All of US program </a></li>
+                            <li><a href="https://allofus.nih.gov/funding-and-program-partners/funding-opportunities">Nutrition for Precision Health</a></li>
+                            <li><a href="https://www.nibib.nih.gov/research-funding/machine-learning?v=tab3">Artificial Intelligence, Machine Learning, and Deep Learning</a></li>
+                            <li><a href="https://www.nlm.nih.gov/ep/Grants.html ">NLM biomedical informatics</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 about-bottom-left" style="margin-top: 3em;">
+                    <h4>AI research resources</h4>
+                    <div class="funding-list funding-text">
+                        <ul>
+                            <li><a href="doc/Facilities - Wayne Artificial Intelligence.docx">Facilities for proposal writing</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="padding-top: 3em;">
+        <div class="container">
+            <div class="services-info">
+                <h3>Selected <span>AI publication</span></h3>
+            </div>
+            <div style="margin-top:3em;">
+                <div class="col-lg-3 col-md-3 " style="margin-top:2em;">
+                    <ul class="nav nav-tabs nav-stacked paper">
+                        <li class="active">
+                            <a href="#GeneralAI" data-toggle="tab">
+                                <h4>General AI/Machine Learning</h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#ComputerVision" data-toggle="tab">
+                                <h4>Computer Vision & Visualization</h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#InformationRetrieval" data-toggle="tab">
+                                <h4>Information Retrieval</h4>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-9 tab-content paperlist">
+                    <div class="tab-pane active paperlink" id="GeneralAI">
+                        <ul>
+                            <li>
+                                <a href="https://arxiv.org/pdf/2012.07688.pdf">
+                                    Li, X, Li, X, Pan,D and Zhu, D (2021) Improving adversarial robustness via probabilistically compact loss with logit constraints. To appear in the proceedings of Thirty-Five AAAI Conference on Artificial Intelligence (AAAI-21), virtual conference.
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.ijcai.org/Proceedings/2020/0373.pdf">
+                                    Pan, D, Li, X, Li, X and Zhu, D (2020) Explainable recommendation via interpretable feature mapping and evaluating explainability. In the proceedings of 29th International Joint Conference on Artificial Intelligence (IJCAI-20), Yokohama, Japan.
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ojs.aaai.org//index.php/AAAI/article/view/5907">
+                                    Li, X, Li, X, Pan,D and Zhu, D (2020) On the learning behavior of logistic and softmax losses for deep neural networks. In the proceedings of Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20), New York, USA.
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane paperlink" id="ComputerVision">
+                        <ul>
+                            <li>
+                                <a href="http://zzhong.eng.wayne.edu/_resources/pdfs/DeepOrganNet_TVCG2019.pdf">
+                                    Yifan Wang, Zichun Zhong, Jing Hua: DeepOrganNet: On-the-Fly Reconstruction and Visualization of 3D / 4D Lung Models from Single-View Projections by Deep Deformation Network. IEEE Trans. Vis. Comput. Graph. 26(1): 960-970 (2020)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://zichunzhong.github.io/papers/Eigen_TVCG2019.pdf">
+                                    Hajar Hamidian, Zichun Zhong, Farshad Fotouhi, Jing Hua:Surface Registration with Eigenvalues and Eigenvectors. IEEE Trans. Vis. Comput. Graph. 26(11): 3327-3339 (2020)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://zichunzhong.github.io/papers/A-CNN_CVPR2019.pdf">
+                                    Artem Komarichev, Zichun Zhong, Jing Hua, "A-CNN: Annularly Convolutional Neural Networks on Point Clouds," IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Long Beach, CA, June 2019.
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://par.nsf.gov/servlets/purl/10127082">
+                                    Chen, S., Zhang, C., & Dong, M. (2018). Coupled end-to-end transfer learning with generalized fisher information. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 4329-4338).
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://openaccess.thecvf.com/content_ICCV_2017/papers/Xu_Directionally_Convolutional_Networks_ICCV_2017_paper.pdf">
+                                    Haotian Xu, Ming Dong, Zichun Zhong, "Directionally Convolutional Networks for 3D Shape Segmentation," IEEE International Conference on Computer Vision (ICCV), pp. 2698 - 2707, Venice, Italy, October 2017.
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ieeexplore.ieee.org/document/7539296">
+                                    Jiaxi Hu, Hajar Hamidian, Zichun Zhong, Jing Hua: Visualizing Shape Deformations with Variation of Geometric Spectrum. IEEE Trans. Vis. Comput. Graph. 23(1): 721-730 (2017) 
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane paperlink" id="InformationRetrieval">
+                        <li>
+                            <a href="https://edgar.meij.pro/wp-content/papercite-data/pdf/sigir-2018-dietz-tut.pdf">
+                                Laura Dietz, Alexander Kotov, Edgar Meij: Utilizing Knowledge Graphs for Text-Centric Information Retrieval. SIGIR 2018: 1387-1390
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://webpages.eng.wayne.edu/~fn6418/docs/nikolaev-sigir16.pdf">
+                                Fedor Nikolaev*, Alexander Kotov* and Nikita Zhiltsov, "Parameterized Fielded Term Dependence Models for Ad-hoc Entity Retrieval from Knowledge Graphs", In Proceedings of the 39th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'16), pages 435-444
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://webpages.eng.wayne.edu/~fn6418/docs/zhiltsov-sigir15.pdf">
+                                Nikita Zhiltsov, Alexander Kotov and Fedor Nikolaev, "Fielded Sequential Dependence Model for Ad-Hoc Entity Retrieval in the Web of Data", In Proceedings of the 38th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'15), pages 253-262 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://webpages.eng.wayne.edu/~fn6418/docs/yang-sigir15.pdf">
+                                Zaihan Yang, Alexander Kotov, Aravind Mohan and Shiyong Lu, "Parametric and Non-parametric User-aware Sentiment Topic Models", In Proceedings of the 38th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'15), pages 413-422
+                            </a>
+                        </li>
+                    </div>
+                </div>
+                <script>
+                    $('#myTab a').click(function(e) {
+                        e.preventDefault();
+                        $(this).tab('show');
+                    });
+                </script>
+            </div>
+
+        </div>
+    </div>
+    <!-- new-bottom -->
+    <div class="new-bottom">
+        <div class="container">
+            <div class="new-bottom-info">
+                <h3>
+                    Our faculty consistently publish in top AI venues tracked by <a href="http://csrankings.org/#/index?all&us" style="font-style: italic;">csrankings.org <i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+                </h3>
+            </div>
+        </div>
+    </div>
+    <!-- //new-bottom -->
+
+    <!-- footer -->
+    <div class="footer">
+        <!-- container -->
+        <div class="container">
+            <div class="footer-grids">
+                <div class="col-sm-4 footer-grid">
+                    <div class="footer-grid-info">
+                        <h3>Navigation</h3>
+                    </div>
+                    <div class="footer-grid-list">
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="research.html">Research</a></li>
+                            <li><a href="education.html">Education</a></li>
+                            <li><a href="outreach.html">Outreach</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4 footer-grid">
+                    <div class="footer-grid-info">
+                        <h3>Research</h3>
+                    </div>
+                    <div class="footer-grid-list">
+                        <ul>
+                            <li><a href="research.html">Cyber Physical Systems</a></li>
+                            <li><a href="research.html">Health Engineering and Informatics</a></li>
+                            <li><a href="research.html">Transportation and Mobility</a></li>
+                            <li><a href="research.html">Smart and Connected Communities</a></li>
+                            <li><a href="research.html">Education and Workforce Training</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4 footer-grid">
+                    <div class="footer-grid-info">
+                        <h3>Contact Us</h3>
+                    </div>
+                    <div class="footer-grid-list">
+                        <h4>Address</h4>
+                        <p>5057 Woodward, Suite 3010
+                            <span>Detroit, MI, 48202</span>
+                        </p>
+                        <h4>Contact Us</h4>
+                        <p>Telephone : +1 313-577-2477
+                            <span>FAX : +1 313-577-6868</span> E-mail : <a href="mailto:ai.research@wayne.edu">ai.research@wayne.edu</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!-- container -->
+    </div>
+    <!-- //footer -->
+    <!-- copyright -->
+    <div class="copyright">
+        <!-- container -->
+        <div class="container">
+            <p>Copyright &copy; 2021.Wayne State University AI Group All rights reserved.</p>
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- //copyright -->
+</body>
+
+</html>
